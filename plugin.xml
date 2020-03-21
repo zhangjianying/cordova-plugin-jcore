@@ -15,15 +15,15 @@
     </engines>
 
     <platform name="android">
-        <resource-file src="src/android/arm64-v8a/libjcore216.so" target="libs/arm64-v8a/libjcore216.so"/>
-        <resource-file src="src/android/armeabi/libjcore216.so" target="libs/armeabi/libjcore216.so"/>
-        <resource-file src="src/android/armeabi-v7a/libjcore216.so" target="libs/armeabi-v7a/libjcore216.so"/>
-        <resource-file src="src/android/mips/libjcore216.so" target="libs/mips/libjcore216.so"/>
-        <resource-file src="src/android/mips64/libjcore216.so" target="libs/mips64/libjcore216.so"/>
-        <resource-file src="src/android/x86/libjcore216.so" target="libs/x86/libjcore216.so"/>
-        <resource-file src="src/android/x86_64/libjcore216.so" target="libs/x86_64/libjcore216.so"/>
+        <resource-file src="src/android/arm64-v8a/libjcore230.so" target="libs/arm64-v8a/libjcore230.so"/>
+        <resource-file src="src/android/armeabi/libjcore230.so" target="libs/armeabi/libjcore230.so"/>
+        <resource-file src="src/android/armeabi-v7a/libjcore230.so" target="libs/armeabi-v7a/libjcore230.so"/>
+        <resource-file src="src/android/mips/libjcore230.so" target="libs/mips/libjcore230.so"/>
+        <resource-file src="src/android/mips64/libjcore230.so" target="libs/mips64/libjcore230.so"/>
+        <resource-file src="src/android/x86/libjcore230.so" target="libs/x86/libjcore230.so"/>
+        <resource-file src="src/android/x86_64/libjcore230.so" target="libs/x86_64/libjcore230.so"/>
 
-        <lib-file src="src/android/jcore-android-2.1.6.jar" />
+        <lib-file src="src/android/jcore-android-2.3.0.jar" />
     </platform>
 
     <platform name="ios">
